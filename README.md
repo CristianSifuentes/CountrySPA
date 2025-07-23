@@ -5,3 +5,6 @@ https://tailwindcss.com/docs/installation/framework-guides/angular
 
 
 https://daisyui.com/docs/install/
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
