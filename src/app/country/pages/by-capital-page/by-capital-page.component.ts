@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './by-capital-page.component.html',
 })
-export class ByCapitalPageComponent { }
+export class ByCapitalPageComponent { 
+
+  onChange(value: string){
+     console.log(value);
+  }
+
+}

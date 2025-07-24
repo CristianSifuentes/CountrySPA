@@ -5,6 +5,9 @@ https://tailwindcss.com/docs/installation/framework-guides/angular
 
 
 https://daisyui.com/docs/install/
+https://daisyui.com/components/hero/
+https://daisyui.com/components/menu/
+https://iconify.design/
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
