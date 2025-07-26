@@ -6,10 +6,21 @@ export const countryRoutes: Routes = [
     {
         path: '', 
         component: CountryLayoutComponent,
-        children: [{
+        children: [
+        {
             path: 'by-capital',
             component: ByCapitalPageComponent
         },
+        // {
+        //     path: 'by-country',
+        //             component: ByCountryPageComponent,
+
+
+        // },
+        // {
+        //     path: 'by-region',
+        //     component: ByRegionPageComponent,
+        // },
         {
             path:'**', 
             redirectTo: 'by-capital',
