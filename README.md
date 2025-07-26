@@ -9,5 +9,7 @@ https://daisyui.com/components/hero/
 https://daisyui.com/components/menu/
 https://iconify.design/
 
+https://angular.dev/style-guide#dont-prefix-output-properties
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
