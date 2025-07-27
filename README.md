@@ -264,6 +264,6 @@ https://daisyui.com/components/menu/
 https://iconify.design/
 
 https://angular.dev/style-guide#dont-prefix-output-properties
-
+https://restcountries.com/
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
