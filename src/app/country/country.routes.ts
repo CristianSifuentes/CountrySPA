@@ -6,42 +6,34 @@ import { ByRegionPageComponent } from './pages/by-region-page/by-region-page.com
 import { CountryPageComponent } from './pages/country-page/country-page.component';
 
 export const countryRoutes: Routes = [
-    {
-        path: '', 
-        component: CountryLayoutComponent,
-        children: [
-        {
-            path: 'by-capital',
-            component: ByCapitalPageComponent
-        },
-        {
-            path: 'by-country',
-                    component: ByCountryPageComponent,
+  {
+    path: '',
+    component: CountryLayoutComponent,
+    children: [
+      {
+        path: 'by-capital',
+        component: ByCapitalPageComponent,
+      },
+      {
+        path: 'by-country',
+        component: ByCountryPageComponent,
+      },
+      {
+        path: 'by-region',
+        component: ByRegionPageComponent,
+      },
 
+      {
+        path: 'by/:code',
+        component: CountryPageComponent,
+      },
 
-        },
-        {
-            path: 'by-region',
-            component: ByRegionPageComponent,
-        },
-        {
-            path: 'by/:code',
-            component: CountryPageComponent,
-        },
-        {
-            path:'**', 
-            redirectTo: 'by-capital',
-        }]
-
-    }
-
-
-   // ,
-    //  {
-    //      path: 'country',
-    //      loadChildren: () => import('./')
-    //  },
-    
+      {
+        path: '**',
+        redirectTo: 'by-capital',
+      },
+    ],
+  },
 ];
 
 export default countryRoutes;

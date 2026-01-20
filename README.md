@@ -13,3 +13,8 @@ https://angular.dev/style-guide#dont-prefix-output-properties
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+https://restcountries.com/
+
+
+https://angular.dev/api/common/DecimalPipe
