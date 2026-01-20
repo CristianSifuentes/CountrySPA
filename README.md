@@ -18,3 +18,5 @@ https://restcountries.com/
 
 
 https://angular.dev/api/common/DecimalPipe
+https://angular.dev/guide/signals/resource
+https://angular.dev/api/core/rxjs-interop/rxResource
