@@ -20,3 +20,4 @@ https://restcountries.com/
 https://angular.dev/api/common/DecimalPipe
 https://angular.dev/guide/signals/resource
 https://angular.dev/api/core/rxjs-interop/rxResource
+https://gist.github.com/Klerith/aa4fa691df78588203d4223e747e7925

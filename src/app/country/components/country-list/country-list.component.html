@@ -31,7 +31,7 @@
           <a
             [routerLink]="['/country/by', country.cca2]"
             class="link-primary cursor-pointer"
-            >Más información</a
+            >More Information</a
           >
         </td>
       </tr>
@@ -47,14 +47,14 @@
       <!--  -->
       @if(countries().length === 0 && !isLoading()) {
       <tr>
-        <td colspan="8" class="text-center">No se encontraron resultados</td>
+        <td colspan="8" class="text-center">Not found results</td>
       </tr>
       }
 
       <!--  -->
       @if (isLoading()) {
       <tr>
-        <td colspan="8" class="text-center">Buscando países</td>
+        <td colspan="8" class="text-center">Searching countries</td>
       </tr>
 
       }
